@@ -1,0 +1,82 @@
+.body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: black;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 4rem;
+    min-height: calc(100vh -6.5rem);
+}
+.img{
+    flex: 1 1 42rem;
+    width: 45vw;
+
+}
+.img img{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 30% 70% 70% 30% / 40% 30% 70% 70%;
+}
+.taxt{
+    flex: 1 1 42rem;
+
+    /* align-items: flex-start; */
+    /* align-content: flex-start; */
+    /* align-items: center;
+    justify-content: center; */
+}
+.content{
+    text-align: left;
+    width: 55vw;
+
+}
+.text h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-bottom: .5rem;
+}
+.text span{
+    font-size: 3rem;
+    color: crimson;
+    display: block;
+    padding: .5rem 0;
+}
+.text p{
+    font-size: 1.5rem;
+   line-height: 2;
+    color: white;
+    padding: 1rem 0;
+}
+.text a{
+    display: inline-block;
+    margin-top:1rem ;
+    border-radius: 5rem;
+    padding: .7rem;
+    font-size: 1.7rem;
+    color: white;
+    text-decoration: none;
+    background: crimson;
+    padding-left: 2rem;
+
+}
+.text a:hover{
+    color: white;
+}
+.text a i{
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    font-size: 1.7rem;
+    text-align: center;
+    background: white;
+    color: crimson;
+    border-radius: 50%;
+    margin-left: 1rem;
+    transition: .2s linear;
+}
+.text a i:hover{
+    margin-left: 2rem;
+
+}
